@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IssueExample
+Bundle-SymbolicName: IssueExample
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Service-Component: META-INF/serialComponent.xml
+Import-Package: org.eclipse.kura.comm;version="1.0.0",
+ org.osgi.service.component;version="1.2.0",
+ org.osgi.service.io;version="1.0.0",
+ org.slf4j;version="1.6.4"
+Bundle-ClassPath: .,
+ lib/bluecove-2.1.0.jar,
+ lib/bluecove-gpl-2.1.0.jar
